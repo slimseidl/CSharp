@@ -34,3 +34,13 @@ Debugger
 - When running code, hits breakpoint, can hover over code in editor to inspect
 - Click continue (same place as run) to continue running code after break points
 - Use breakpoints and stepover button to go line by line thru code after breakpoints
+
+Dotnet SDK
+- dotnet new creates a new project
+- dotnet build compiles the application
+- dotnet run executes
+- dotnet new console -n "NameOfApp"
+	- new = new 
+	- console = application template type
+	- -n allows naming
+	- "Name of App goes between quotes"
