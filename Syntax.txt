@@ -56,3 +56,39 @@ Operators
 - VariableName-- 
     - Decreases by 1
     - or ++ increases by 1
+
+Members
+- Min / Max value
+- int age = int.MaxValue or int.MinValue
+- char type members 
+    - char myChar = 'a'
+    - bool isWhiteSpace = char.isWhiteSpace(myChar);
+        - Returns true if myChar is whitespace 
+    - bool isDigit = char.isDigit(myChar);
+        - Returns true if its a digit 
+    - bool is Punct = char.IsPunctuation(myChar);
+
+DateTime Types 
+- DateTime 
+- TimeSpan 
+- DateTime startDate = new DateTime(2025, 03, 28)
+    - new initializes date
+- DateTime today = DateTime.Today 
+    - retruns current date 
+- DateTime twoDaysLater = someDateTime.AddDays(2)
+- DayOfWeek day = someDateTime.DayOfWeek;
+- bool isDST = someDateTime.IsDaylightSavingTime();
+
+Converting Data Types 
+- Implicit 
+    - int a = 123456789; 
+    - long l = a;
+    - converts integer to long integer 
+- Explicit 
+    - double d = 1234567.54
+    - int a = (int) d; // convert to integer 
+
+Implicit Typing 
+- int a = 123; same as var a = 123; //will be an integer 
+- C # implies / figures out the data type based on value 
+- Data type decided at compile time 
