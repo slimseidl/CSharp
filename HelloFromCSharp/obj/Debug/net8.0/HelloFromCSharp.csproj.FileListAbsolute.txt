@@ -1,0 +1,15 @@
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\bin\Debug\net8.0\HelloFromCSharp.exe
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\bin\Debug\net8.0\HelloFromCSharp.deps.json
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\bin\Debug\net8.0\HelloFromCSharp.runtimeconfig.json
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\bin\Debug\net8.0\HelloFromCSharp.dll
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\bin\Debug\net8.0\HelloFromCSharp.pdb
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\HelloFromCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\HelloFromCSharp.AssemblyInfoInputs.cache
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\HelloFromCSharp.AssemblyInfo.cs
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\HelloFromCSharp.csproj.CoreCompileInputs.cache
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\HelloFromCSharp.sourcelink.json
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\HelloFromCSharp.dll
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\refint\HelloFromCSharp.dll
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\HelloFromCSharp.pdb
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\HelloFromCSharp.genruntimeconfig.cache
+C:\Users\jseidl\PluarlSightCSharp\HelloFromCSharp\obj\Debug\net8.0\ref\HelloFromCSharp.dll

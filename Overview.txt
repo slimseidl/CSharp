@@ -1,0 +1,15 @@
+- Roots in C family
+- Similarites to JS and Java
+- Nearly all backwards compatible with current compiler
+- For .Net applicaiton
+
+IDE's
+- Visual Studio
+- .Net CLI and VSC
+- JetBrains Ryder
+
+Visual Studio 2022
+- Projects are containers for code files
+- Compiled into executable files
+- Can use templates to get started
+- Console Applications Template
