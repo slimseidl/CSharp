@@ -44,3 +44,21 @@ Dotnet SDK
 	- console = application template type
 	- -n allows naming
 	- "Name of App goes between quotes"
+VS code
+- All the dotnet CLI things work with VS Code, may prefer this over visual studio 2022
+- dotnet new app (console) -n "Name" 
+	- How to build a new project 
+- C# Dev Kit in VS Code
+	- Allows users to do more things inside VS code versus using the console
+- CTRL + SHIFT + P to open command pallete
+- Type in Run or Build 
+- Can create keyboard shortcuts to execute commands
+
+Projects and Solutions
+- Solution is a container that houses Projects
+	- .sln files 
+	- Organizes components 
+	- .sln files do not contain code 
+	- tells the IDEA which project files belong together
+- Project is fundamental building block in .NET 
+	- Contains actual code files (.cs)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\HelloFromCSharp.csproj": {}
+    "c:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\HelloFromCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\HelloFromCSharp.csproj": {
+    "c:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\HelloFromCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\HelloFromCSharp.csproj",
+        "projectUniqueName": "c:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\HelloFromCSharp.csproj",
         "projectName": "HelloFromCSharp",
-        "projectPath": "C:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\HelloFromCSharp.csproj",
+        "projectPath": "c:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\HelloFromCSharp.csproj",
         "packagesPath": "C:\\Users\\jseidl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\obj\\",
+        "outputPath": "c:\\Users\\jseidl\\PluarlSightCSharp\\HelloFromCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
