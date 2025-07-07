@@ -13,3 +13,14 @@ Visual Studio 2022
 - Compiled into executable files
 - Can use templates to get started
 - Console Applications Template
+
+Syntax
+- Console.WriteLine ("Text")
+	- Writes output to console app
+- Semicolon terminates a line / new line
+- string name = console.readline(); 
+	- initializing a string variable with input from user
+
+Building
+- Building compiles the code without executing
+- Build Tab > Build Solution
