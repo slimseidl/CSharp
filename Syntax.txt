@@ -1,0 +1,58 @@
+Statements
+- Whitespace does not matter, but follow best practices for readability
+- Console.readline();
+    - Reads in input 
+-Console.WriteLine();
+    - Reads out a statement or text 
+
+Comments
+- // starts a comment for a single line 
+- /* Starts a multi line comment 
+        Comments go here 
+        then here 
+- */ Ends multi line comment 
+- Highlight multiple lines and comment out with CTRL + K + C
+- Uncomment with CTRL + K + U
+
+Key Words 
+- int, ref, in, return, class, while, string, etc 
+
+Variables 
+- Hold values 
+- string x = "Hi" 
+- Types
+    - Int, string, date, etc 
+
+Declaration statements 
+- int age; 
+    - integer variable age; 
+    - age = 22 
+    - Case matters 
+
+Data Types
+- Strongly typed language
+- Predefined Types 
+    - Built in and used out of the box like INT 
+-Built In 
+    - Bool
+    - Int 
+    - float 
+    -double 
+    - decimal has highest precision
+    - char - single characters 
+    - byte 8 bit integers 
+        - 0 to 255 
+    - short 
+    - object 
+    - string 
+
+Operators
+- =, +, >
+- Follow order of Operations
+- Can use variable with operator 
+- if month < 1, do something 
+- use + for string concat 
+- Compound operators month += 1
+- VariableName-- 
+    - Decreases by 1
+    - or ++ increases by 1
