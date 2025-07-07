@@ -24,3 +24,13 @@ Syntax
 Building
 - Building compiles the code without executing
 - Build Tab > Build Solution
+
+- .exe file contains the application
+
+Debugger 
+- Click in grey area on left hand side to create a breakpoint
+	- Application halts at break point to inspect
+	-Highlights code in red
+- When running code, hits breakpoint, can hover over code in editor to inspect
+- Click continue (same place as run) to continue running code after break points
+- Use breakpoints and stepover button to go line by line thru code after breakpoints
