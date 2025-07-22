@@ -29,6 +29,7 @@ double rating = 99.25;
 // byte numberOfEmployees = 300;
 // byte cannot be > 255
 
+// Test
 int hoursWorked;
 
 hoursWorked = 125;
