@@ -1,0 +1,12 @@
+- Boolean = True / False
+- bool c = true
+- Console.writeline(c)
+- Passes True
+
+&& is the AND syntax
+validAge ( age>=18) && (age <= 65);
+
+|| Double pipe is the or symbol
+age > 18 || age < 65
+
+
