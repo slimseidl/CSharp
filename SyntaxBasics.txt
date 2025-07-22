@@ -99,3 +99,22 @@ Constants
 - Const int intRate = 0.07
     - intRate always stays 0.07
 
+Integer parsing from input
+- int.parse(Console.Readline());
+
+Switch Statements
+- Good for many conditions to check
+- lots of if, else if, etc.
+- switch(expression)
+   {
+   case constant expression 1:
+    statements
+    break;}
+- break indicates where it should run til
+-if no match found, use default value
+    - case < 18
+    - case > 65
+    - case 45
+    - default: 
+    - see program.cs under 05 > start
+
