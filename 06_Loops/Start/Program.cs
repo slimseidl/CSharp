@@ -113,11 +113,30 @@
 
 // For loops 
 
-for (int i = 0; i < 10; i++)
-{
-    Console.WriteLine(i);
-}
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.WriteLine(i);
+//}
 
+//Console.ReadLine();
+
+
+int val = 0;
+
+for (int x = 0; x < 10; x++)
+{
+    val = (val * x) + 5;
+    if ((x == 5) || (val == 5))
+    {
+        Console.WriteLine("Nailed It!");
+        continue;
+    }
+    else
+    {
+        Console.WriteLine("Noteworthy");
+    }
+}
+Console.WriteLine("Nothing Happened");
 Console.ReadLine();
 
 
