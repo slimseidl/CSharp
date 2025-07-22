@@ -117,4 +117,8 @@ Switch Statements
     - case 45
     - default: 
     - see program.cs under 05 > start
-
+- doesnt work for float or doubles
+- case labels use a pattern like relational or constant
+- First match is executed
+- each case is unique
+- Default is evaluated last
