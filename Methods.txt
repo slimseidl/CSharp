@@ -1,0 +1,23 @@
+Methods
+- Methods help with reusability of code
+- Often contain parameters that are passed, like a function in python
+- Must have a method name, followed by a () for parameters
+	- methodName (x)
+- Must have a body
+	- methodName(x)
+		{
+		body
+		}
+- Return type
+	- what the method should return for a value
+		- may not have a return value
+		- void return type
+- can have an access modifier
+	-where the method can be invoked
+-Example
+	methodName(x, y)
+-Public - Publicly available method
+	public int addTwoNumbers (int a, int b)
+	{return a + b}
+	//int is the return type
+

@@ -1,43 +1,92 @@
 ﻿
 
-using BethanysPieShopHRM;
+//using BethanysPieShopHRM;
 
-Console.WriteLine("Creating an employee");
-Console.WriteLine("--------------------\n");
+//Console.WriteLine("Creating an employee");
+//Console.WriteLine("--------------------\n");
 
-Employee bethany = new Employee("Bethany", "Smith", "bethany@snowball.be", new DateTime(1979, 1, 16), 25);
-
-
-bethany.DisplayEmployeeDetails();
-
-bethany.PerformWork();
-bethany.PerformWork();
-bethany.PerformWork(5);
-bethany.PerformWork();
-
-double receivedWageBethany = bethany.ReceiveWage(true);
-Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
-
-bethany.firstName = "John";
-bethany.hourlyRate = 10;
-
-bethany.DisplayEmployeeDetails();
-bethany.PerformWork();
-bethany.PerformWork(12);
-bethany.PerformWork();
-bethany.ReceiveWage();
+//Employee bethany = new Employee("Bethany", "Smith", "bethany@snowball.be", new DateTime(1979, 1, 16), 25);
 
 
-Console.WriteLine("Creating an employee");
-Console.WriteLine("--------------------\n");
+//bethany.DisplayEmployeeDetails();
 
-Employee george = new("George", "Jones", "george@snowball.be", new DateTime(1984, 3, 28), 30);
+//bethany.PerformWork();
+//bethany.PerformWork();
+//bethany.PerformWork(5);
+//bethany.PerformWork();
 
-george.DisplayEmployeeDetails();
-george.PerformWork();
-george.PerformWork();
-george.PerformWork(3);
-george.PerformWork();
-george.PerformWork(8);
+//double receivedWageBethany = bethany.ReceiveWage(true);
+//Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
 
-var receivedWageGeorge = george.ReceiveWage(true);
+//bethany.firstName = "John";
+//bethany.hourlyRate = 10;
+
+//bethany.DisplayEmployeeDetails();
+//bethany.PerformWork();
+//bethany.PerformWork(12);
+//bethany.PerformWork();
+//bethany.ReceiveWage();
+
+
+//Console.WriteLine("Creating an employee");
+//Console.WriteLine("--------------------\n");
+
+//Employee george = new("George", "Jones", "george@snowball.be", new DateTime(1984, 3, 28), 30);
+
+//george.DisplayEmployeeDetails();
+//george.PerformWork();
+//george.PerformWork();
+//george.PerformWork(3);
+//george.PerformWork();
+//george.PerformWork(8);
+
+//var receivedWageGeorge = george.ReceiveWage(true);
+
+//// basic method with return statement
+//public int addTwoNumbers(int a, int b)
+//{
+//    if (a > b)
+//    {
+//        return a + b;
+//    }
+//    return 1;
+//}
+
+//Console.WriteLine(addTwoNumbers(4, 3));
+//Console.ReadLine();
+
+// If method just writes a line to the console, doesn't need a return statement
+// Use void tag instead
+
+//void displaySum(int a, int b)
+//{
+//    int sum = a + b;
+//    Console.WriteLine(sum);
+//}
+
+////Calling the method
+//displaySum(1, 2);
+//displaySum(177, 42);
+
+//Console.ReadLine();
+
+int amount = 1200;
+int months = 12;
+
+static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
+{
+    // $ like an f string in python
+    //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
+    //return monthlyWage * numberOfMonthsWorked;
+    if (numberOfMonthsWorked == 12) // bonus! 
+    {
+        return monthlyWage * (numberOfMonthsWorked + 1);
+    }
+    return monthlyWage * numberOfMonthsWorked;
+}
+
+int yearlyWage = calculateWage(amount, months);
+Console.WriteLine(yearlyWage);
+
+
+Console.ReadLine();
