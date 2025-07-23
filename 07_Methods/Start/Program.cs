@@ -95,7 +95,7 @@ int bonus = int.Parse(Console.ReadLine());
 //    return monthlyWage * numberOfMonthsWorked;
 //}
 
-int yearlyWage = Utilities.calculateWage(amount, months, bonus);
+int yearlyWage = Utilities.CalculateWage(amount, months, bonus);
 Console.WriteLine($"The annual salary for this employee is ${yearlyWage}");
 
 

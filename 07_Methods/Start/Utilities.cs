@@ -8,8 +8,9 @@ namespace BethanysPieShopHRM
 {
     internal class Utilities
     {
-        public static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
+        public static int CalculateWage(int monthlyWage, int numberOfMonthsWorked)
         {
+            
             // $ like an f string in python
             //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
             //return monthlyWage * numberOfMonthsWorked;
@@ -21,8 +22,9 @@ namespace BethanysPieShopHRM
         }
 
         // Method Overloading Below, same name, different functions
-        public static int calculateWage(int monthlyWage, int numberOfMonthsWorked, int bonus)
+        public static int CalculateWage(int monthlyWage, int numberOfMonthsWorked, int bonus = 0)
         {
+           
             // $ like an f string in python
             //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
             //return monthlyWage * numberOfMonthsWorked;

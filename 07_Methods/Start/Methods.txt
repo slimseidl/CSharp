@@ -69,5 +69,19 @@ Console.ReadLine();
 	- Different methods due to # of parameters
 	- Known as method overloading
 
-
+- Variable Scope
+	- Variables intitialized within a method are only valid within the method
+	- cannot use outside the method without initializing it first
+	- Local variable
+		- variable to the method
+- Optional Parameters in Methods
+	- specify a default value in argument
+	- Can leave out this argument and default
+	- ex: 
+		public int addNums(int a, int b, int c = 100) // int c has a default value
+- Named Arguments
+	- can name parameters so order of input to method doesnt matter
+	- public static int addNums ( int a, int b)
+	- addNums(b: 10, a: 12)
+		- Named arguments to indicate order doesnt matter
 
