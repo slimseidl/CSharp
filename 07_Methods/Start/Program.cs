@@ -70,8 +70,15 @@
 
 //Console.ReadLine();
 
-int amount = 1200;
-int months = 12;
+
+// more method practice
+
+
+Console.WriteLine("Enter employees monthly wage: ");
+int amount = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter number of months worked: ");
+int months = int.Parse(Console.ReadLine());
+
 
 static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
 {
@@ -85,8 +92,8 @@ static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
     return monthlyWage * numberOfMonthsWorked;
 }
 
-int yearlyWage = calculateWage(amount, months);
-Console.WriteLine(yearlyWage);
+int yearlyWage = Utilities.calculateWage(amount, months);
+Console.WriteLine($"The annual salary for this employee is ${yearlyWage}");
 
 
 Console.ReadLine();

@@ -20,4 +20,42 @@ Methods
 	public int addTwoNumbers (int a, int b)
 	{return a + b}
 	//int is the return type
+- Full method example:
+
+	Console.WriteLine("Enter employees monthly wage: ");
+int amount = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter number of months worked: ");
+int months = int.Parse(Console.ReadLine());
+
+
+static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
+{
+    // $ like an f string in python
+    //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
+    //return monthlyWage * numberOfMonthsWorked;
+    if (numberOfMonthsWorked == 12) // bonus! 
+    {
+        return monthlyWage * (numberOfMonthsWorked + 1);
+    }
+    return monthlyWage * numberOfMonthsWorked;
+}
+
+int yearlyWage = calculateWage(amount, months);
+Console.WriteLine($"The annual salary for this employee is ${yearlyWage}");
+
+
+Console.ReadLine();
+
+- Moving methods to a class file to invoke them
+	- Create new item > C# class
+	- i.e. Utilities.cs
+	- creates necessary parameters such as using system, using system.Linq, namespace, class, etc.
+		- More on these later
+	- Put method inside body of utilities class
+	- Make method a public tag in utilities class
+	- To use the method, must call out where it's coming from, kind of like an import statement in python
+		- Utilities.calculateWage
+		- Using Bethany'sPieShopHRM at top where import would go
+
+
 
