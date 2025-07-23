@@ -73,26 +73,29 @@
 
 // more method practice
 
+using BethanysPieShopHRM;
 
 Console.WriteLine("Enter employees monthly wage: ");
 int amount = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter number of months worked: ");
 int months = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter the bonus: ");
+int bonus = int.Parse(Console.ReadLine());
 
 
-static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
-{
-    // $ like an f string in python
-    //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
-    //return monthlyWage * numberOfMonthsWorked;
-    if (numberOfMonthsWorked == 12) // bonus! 
-    {
-        return monthlyWage * (numberOfMonthsWorked + 1);
-    }
-    return monthlyWage * numberOfMonthsWorked;
-}
+//static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
+//{
+//    // $ like an f string in python
+//    //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
+//    //return monthlyWage * numberOfMonthsWorked;
+//    if (numberOfMonthsWorked == 12) // bonus! 
+//    {
+//        return monthlyWage * (numberOfMonthsWorked + 1);
+//    }
+//    return monthlyWage * numberOfMonthsWorked;
+//}
 
-int yearlyWage = Utilities.calculateWage(amount, months);
+int yearlyWage = Utilities.calculateWage(amount, months, bonus);
 Console.WriteLine($"The annual salary for this employee is ${yearlyWage}");
 
 

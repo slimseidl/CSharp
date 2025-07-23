@@ -1,0 +1,73 @@
+Methods
+- Methods help with reusability of code
+- Often contain parameters that are passed, like a function in python
+- Must have a method name, followed by a () for parameters
+	- methodName (x)
+- Must have a body
+	- methodName(x)
+		{
+		body
+		}
+- Return type
+	- what the method should return for a value
+		- may not have a return value
+		- void return type
+- can have an access modifier
+	-where the method can be invoked
+-Example
+	methodName(x, y)
+-Public - Publicly available method
+	public int addTwoNumbers (int a, int b)
+	{return a + b}
+	//int is the return type
+- Full method example:
+
+	Console.WriteLine("Enter employees monthly wage: ");
+int amount = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter number of months worked: ");
+int months = int.Parse(Console.ReadLine());
+
+
+static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
+{
+    // $ like an f string in python
+    //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
+    //return monthlyWage * numberOfMonthsWorked;
+    if (numberOfMonthsWorked == 12) // bonus! 
+    {
+        return monthlyWage * (numberOfMonthsWorked + 1);
+    }
+    return monthlyWage * numberOfMonthsWorked;
+}
+
+int yearlyWage = calculateWage(amount, months);
+Console.WriteLine($"The annual salary for this employee is ${yearlyWage}");
+
+
+Console.ReadLine();
+
+- Moving methods to a class file to invoke them
+	- Create new item > C# class
+	- i.e. Utilities.cs
+	- creates necessary parameters such as using system, using system.Linq, namespace, class, etc.
+		- More on these later
+	- Put method inside body of utilities class
+	- Make method a public tag in utilities class
+	- To use the method, must call out where it's coming from, kind of like an import statement in python
+		- Utilities.calculateWage
+		- Using Bethany'sPieShopHRM at top where import would go
+	- Must have the solution open to build
+- Finding Correct Methods
+	- How does C# find the correct method?
+	- Uses method name
+	- Does method pass correct argument / parameters?
+	- # of parameters
+- Multiple methods of the same name can exist
+	- But must have different number or different types of arguments passed to it
+	- DisplaySum(int a, int b)
+	- DisplaySum(int a, int b, int c)
+	- Different methods due to # of parameters
+	- Known as method overloading
+
+
+
