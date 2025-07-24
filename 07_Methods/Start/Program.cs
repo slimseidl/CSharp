@@ -102,19 +102,34 @@
 //Console.ReadLine();
 
 // String functions
-Console.WriteLine("Please enter your first name");
-string firstName = Console.ReadLine();
-Console.WriteLine("Please enter your last name");
-string lastName = Console.ReadLine();
+//Console.WriteLine("Please enter your first name");
+//string firstName = Console.ReadLine();
+//Console.WriteLine("Please enter your last name");
+//string lastName = Console.ReadLine();
 
-string username = string.Concat(firstName.ToLower().Substring(0, 1), lastName.ToLower(),"@hrydousa.com");
-Console.WriteLine($"Your new username is: {username}");
-Console.WriteLine(username.Length);
+//string username = string.Concat(firstName.ToLower().Substring(0, 1), lastName.ToLower(),"@hrydousa.com");
+//Console.WriteLine($"Your new username is: {username}");
+//Console.WriteLine(username.Length);
 
-if (username.Contains("ashole"))
+//if (username.Contains("ashole"))
+//{
+//    string NewUser = username.Replace("ashole",string.Concat(firstName,".",lastName));
+//    Console.WriteLine(NewUser);
+//}
+//Console.ReadLine();
+
+
+Console.WriteLine("Enter the wage");
+string wage = Console.ReadLine();
+
+int wageValue;
+
+if (int.TryParse(wage, out wageValue))
+    Console.WriteLine("Parse Successful : " + wageValue);
+else
 {
-    string NewUser = username.Replace("ashole",string.Concat(firstName,".",lastName));
-    Console.WriteLine(NewUser);
+    Console.WriteLine("Parse Failed");
 }
-Console.ReadLine();
 
+
+Console.ReadLine();

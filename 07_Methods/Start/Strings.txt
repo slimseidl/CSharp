@@ -20,3 +20,21 @@
 	- console.writeline($"Here is my variable: {var}")
 	- can be used when assigning vars
 	- myString = $"Hello {firstname}",
+- Escape Characters
+	- \n = newline
+	- \t = add a tab
+	- \\ = single backslash
+	- @ symbol before text ignores escape characters
+	- string filePath = @"C:\Docs\readme.txt"
+	- \" escapes a double quote
+- Comparing Strings
+	- bool b1 firstName == "John" // true
+	- bool b = firstname.ToUpper() == anotherstring.ToUpper();
+		- See if strings are equal values not regarding case
+- String Parsing
+	- string w = ConsoleReadLine();
+	- double wage = double.Parse(w);
+	- when reading from the console, it's always a string so it needs to be parsed to a differnet value
+	- string text = "true";
+		if bool.tryparse(text, out bool b)
+		use TryParse when unsure if it will work
