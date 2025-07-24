@@ -73,30 +73,48 @@
 
 // more method practice
 
-using BethanysPieShopHRM;
+//using BethanysPieShopHRM;
 
-Console.WriteLine("Enter employees monthly wage: ");
-int amount = int.Parse(Console.ReadLine());
-Console.WriteLine("Enter number of months worked: ");
-int months = int.Parse(Console.ReadLine());
-Console.WriteLine("Enter the bonus: ");
-int bonus = int.Parse(Console.ReadLine());
-
-
-//static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
-//{
-//    // $ like an f string in python
-//    //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
-//    //return monthlyWage * numberOfMonthsWorked;
-//    if (numberOfMonthsWorked == 12) // bonus! 
-//    {
-//        return monthlyWage * (numberOfMonthsWorked + 1);
-//    }
-//    return monthlyWage * numberOfMonthsWorked;
-//}
-
-int yearlyWage = Utilities.CalculateWage(amount, months, bonus);
-Console.WriteLine($"The annual salary for this employee is ${yearlyWage}");
+//Console.WriteLine("Enter employees monthly wage: ");
+//int amount = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter number of months worked: ");
+//int months = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter the bonus: ");
+//int bonus = int.Parse(Console.ReadLine());
 
 
+////static int calculateWage(int monthlyWage, int numberOfMonthsWorked)
+////{
+////    // $ like an f string in python
+////    //Console.WriteLine($"Yearly Wage: {monthlyWage * numberOfMonthsWorked}");
+////    //return monthlyWage * numberOfMonthsWorked;
+////    if (numberOfMonthsWorked == 12) // bonus! 
+////    {
+////        return monthlyWage * (numberOfMonthsWorked + 1);
+////    }
+////    return monthlyWage * numberOfMonthsWorked;
+////}
+
+//int yearlyWage = Utilities.CalculateWage(amount, months, bonus);
+//Console.WriteLine($"The annual salary for this employee is ${yearlyWage}");
+
+
+//Console.ReadLine();
+
+// String functions
+Console.WriteLine("Please enter your first name");
+string firstName = Console.ReadLine();
+Console.WriteLine("Please enter your last name");
+string lastName = Console.ReadLine();
+
+string username = string.Concat(firstName.ToLower().Substring(0, 1), lastName.ToLower(),"@hrydousa.com");
+Console.WriteLine($"Your new username is: {username}");
+Console.WriteLine(username.Length);
+
+if (username.Contains("ashole"))
+{
+    string NewUser = username.Replace("ashole",string.Concat(firstName,".",lastName));
+    Console.WriteLine(NewUser);
+}
 Console.ReadLine();
+

@@ -1,0 +1,22 @@
+﻿String functions
+- string.Length
+	returns the length of a string
+- string.ToUpper
+- string.ToLower
+- string.Contains("Hello")
+	returns boolean value of t or f
+		if contains it
+- string.Replace("a", "b")
+	replaces a value with another
+- string.Substring(1, 3)
+	Get part of the string and return it
+	index based
+	start val end val
+- String concat with + sign 
+	- Or string.Concat(var1, var2)
+- String interpolation
+	- like f strings
+	- uses the $ instead of an f
+	- console.writeline($"Here is my variable: {var}")
+	- can be used when assigning vars
+	- myString = $"Hello {firstname}",

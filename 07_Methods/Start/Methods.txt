@@ -84,4 +84,12 @@ Console.ReadLine();
 	- public static int addNums ( int a, int b)
 	- addNums(b: 10, a: 12)
 		- Named arguments to indicate order doesnt matter
+- Expression bodied syntax
+	- can be used for methods
+	- method => monthlyWage * numHoursWorked + bonus;
+	shortens up lines of code
+- Intro to the "Main" Method
+	- code gets wrapped in a main method from compiler
+	- top level statements are teh default
+	
 
