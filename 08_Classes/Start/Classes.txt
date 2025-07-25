@@ -1,1 +1,46 @@
-﻿
+﻿Classes 
+- Most commonly used custom type
+- i.e. Utilities Class
+- Called when application executes
+- Structs
+	- Similar to a class with sepcific properties
+- Records
+	- Classes with advantages
+Class
+	- Blueprint of an object
+	- Represent a concept
+	- Instantiate a single instance
+	- Bob and Tom are instances of a an employee class
+	- Uses the class keyword
+	- Defines data and functionality
+	- Foundation of OOP
+	- Most code lives inside a class
+	- Methods have to be inside a class
+	- Example
+		- Access modfier = public
+		- class myClass { body }
+		- inside body of class
+			- Fields
+				- class level variables
+				- methods
+				- properties
+					- wrap fields
+				- Events
+		- Employee class
+			- ID: name
+			- attributes: age, wage, etc
+			- Behaviors: get paid, do work, etc
+		public class Employee 
+		{
+			public string firstName;
+			public int age;
+
+			// void means it doesnt return anything
+			public void Performwork()
+			{
+				//method code
+			}
+		}
+		- Public makes available from outside
+		- Private - method or fields only exists within the class
+		- Protected 
