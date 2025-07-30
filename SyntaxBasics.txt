@@ -122,3 +122,45 @@ Switch Statements
 - First match is executed
 - each case is unique
 - Default is evaluated last
+
+String formatting
+- string.format("{0} {1}", first, last )
+    - Works like string concatenation
+    - 0 / 1 replaces with next values
+- string.join
+    - joins strings with a separator
+    - var numbers = new int[3] {1, 2, 3};
+    - string list = string.Join(",", numbers);
+    - "1, 2, 3" is new string
+- strings are immutable
+- string verbatim
+    - use @ sign at beginning of string to ignore escape characters
+        - dont have to use escape characters
+
+Enums
+- use where you have a number of related constants
+- created sort of like a class
+    
+    public enum ShipMethod
+    {
+        Regular = 1,
+        RegisteredAir = 2,
+        Express = 3
+    }
+    - then you can call it
+
+    var method = ShipMethod.Express;
+- Arrays
+    - Arrays are reference types, so anything applied will effect references
+    - Ex:
+        
+        var array1 = new int[3] {1, 2, 3}
+        var array2 = array 1
+        array2[0] = 5
+        Consol.WriteLine(array1[0]) = 5 because array2 references array1
+            - Does not create a new array
+- integers are value types, so it does create a new variable
+    var num1 = 1
+    var num2 = num1
+    num2++;
+    Console.WriteLine(num1) still equals 1

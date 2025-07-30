@@ -9,3 +9,5 @@
 	- replaces 0 and 1 in output with the 1st and second values respectively
 	- 0 becomes the minimum value of type byte, and 1 becomes the max
 	- Works for all numerical data types
+- CTRL + D to repeat current line on new line
+	- at end of line, press ctrl + d to write the code to the next line
