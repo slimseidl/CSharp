@@ -38,3 +38,5 @@
 	- string text = "true";
 		if bool.tryparse(text, out bool b)
 		use TryParse when unsure if it will work
+- Also works for Parsing Date Time values
+	- DateTime.Parse(hiredate)

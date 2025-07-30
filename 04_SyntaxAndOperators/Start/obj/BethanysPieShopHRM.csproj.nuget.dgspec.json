@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04\\demos\\start\\BethanysPieShopHRM\\BethanysPieShopHRM\\BethanysPieShopHRM.csproj": {}
+    "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04_SyntaxAndOperators\\Start\\BethanysPieShopHRM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04\\demos\\start\\BethanysPieShopHRM\\BethanysPieShopHRM\\BethanysPieShopHRM.csproj": {
+    "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04_SyntaxAndOperators\\Start\\BethanysPieShopHRM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04\\demos\\start\\BethanysPieShopHRM\\BethanysPieShopHRM\\BethanysPieShopHRM.csproj",
+        "projectUniqueName": "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04_SyntaxAndOperators\\Start\\BethanysPieShopHRM.csproj",
         "projectName": "BethanysPieShopHRM",
-        "projectPath": "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04\\demos\\start\\BethanysPieShopHRM\\BethanysPieShopHRM\\BethanysPieShopHRM.csproj",
+        "projectPath": "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04_SyntaxAndOperators\\Start\\BethanysPieShopHRM.csproj",
         "packagesPath": "C:\\Users\\jseidl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04\\demos\\start\\BethanysPieShopHRM\\BethanysPieShopHRM\\obj\\",
+        "outputPath": "C:\\Users\\jseidl\\source\\repos\\PluralsightCSharp\\04_SyntaxAndOperators\\Start\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
