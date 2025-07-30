@@ -1,0 +1,11 @@
+- CTRL + SHIFT + B = Build
+- CTRL + F5 = Run
+- cw  + tab = console.writeline
+- CTRL + Click on variable type = open object browser
+	-view functions related to types
+- CTRL + x = delete whole line
+- Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue)
+	- write formatting
+	- replaces 0 and 1 in output with the 1st and second values respectively
+	- 0 becomes the minimum value of type byte, and 1 becomes the max
+	- Works for all numerical data types
