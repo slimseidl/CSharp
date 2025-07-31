@@ -1,0 +1,15 @@
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\bin\Debug\net8.0\Validation.exe
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\bin\Debug\net8.0\Validation.deps.json
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\bin\Debug\net8.0\Validation.runtimeconfig.json
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\bin\Debug\net8.0\Validation.dll
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\bin\Debug\net8.0\Validation.pdb
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\Validation.AssemblyInfoInputs.cache
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\Validation.AssemblyInfo.cs
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\Validation.csproj.CoreCompileInputs.cache
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\Validation.sourcelink.json
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\Validation.dll
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\refint\Validation.dll
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\Validation.pdb
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\Validation.genruntimeconfig.cache
+C:\Users\jseidl\source\repos\PluralsightCSharp\UdemyConditionals\ConditionExercises\Validation\obj\Debug\net8.0\ref\Validation.dll
