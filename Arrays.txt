@@ -1,0 +1,22 @@
+Arrays
+- var numbers = new int[5]	
+	- creates a 5 element integer array
+- Multi Dimensions Arrays
+	- Can have a rectangular
+		- Same # of rows and columns
+		var matrix = new int[3, 5]
+		- 3 row 5 column array
+		- can initialize with {values}, {}, {}
+	- Jagged Arrays
+		- Diff # of rows / columns per level
+		- array of arrays
+		- Example
+			
+			var array = new int[3][0]
+
+			array[0] = new int[4]
+			array[1] = new int[5]
+			array[2] = new int[3]
+				- 1st has 4 element, 2nd has 5, 3rd has 3
+			array[0][0] = 1;
+				- changes first el of first array to 1

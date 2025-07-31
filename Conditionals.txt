@@ -1,0 +1,16 @@
+If, Switch, Ternary, Conditions
+- if, else if, else
+- use ? for quick comparison
+	 isGoldcustomer = true;
+	 float price;
+
+	 float price = (isGoldcustomer) ? 19.95f : 29.95f;
+		- Says if they are a gold customer (true) use 19.95 else (designated by :) 29.95
+- Case 
+	- Case statements can be put together for multiple variables
+
+		case Season.Fall:
+		case Season.Summer:
+			Console.WriteLine("Great Seasons")
+
+			- Will print out for both seasons

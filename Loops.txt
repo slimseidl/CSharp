@@ -1,0 +1,22 @@
+Loops
+- for loop (int i = 0; i < 10; i++)
+	- int i = 0
+		- initialization of variable to compare to
+	- i < 10
+		- Condition statement
+		- Loop executes while condition is valid
+	- i++
+		- modifier
+		- increases the value of i after every iteration
+- Foreach loops
+	- foreach (var number in numbers)
+	- iterates over values in a list, array or dictionary
+While loops
+	while condition is valid it executes
+	while (i < 10)
+Do While
+	- always executes once
+	- do is first, condition at end of loop
+
+	Break - jumps out of loop
+	Continue - jumps to next iteration
