@@ -124,28 +124,52 @@
 
 // Number Guessing Game
 
-var number = new Random().Next(1, 100);
+//var number = new Random().Next(1, 100);
 
 
-Console.WriteLine("Guess a number between 1 and 100");
+//Console.WriteLine("Guess a number between 1 and 100");
 
-for (var i =0; i < 5; i++)
-{
-    Console.WriteLine("Take a guess: ");
-    var guess = int.Parse(Console.ReadLine());
+//for (var i =0; i < 5; i++)
+//{
+//    Console.WriteLine("Take a guess: ");
+//    var guess = int.Parse(Console.ReadLine());
 
-    if (guess == number)
-    {
-        Console.WriteLine("\nYou won!\n");
-        Console.ReadLine();
-        return;
-    }
-    else if (guess > number)
-        Console.WriteLine("\nLower\n");
-    else
-        Console.WriteLine("\nHigher\n");
-}
-Console.WriteLine($"You lost, the correct answer was {number}");
+//    if (guess == number)
+//    {
+//        Console.WriteLine("\nYou won!\n");
+//        Console.ReadLine();
+//        return;
+//    }
+//    else if (guess > number)
+//        Console.WriteLine("\nLower\n");
+//    else
+//        Console.WriteLine("\nHigher\n");
+//}
+//Console.WriteLine($"You lost, the correct answer was {number}");
+
+
+// Loops 5
+/* Input a set of nums separated by commas.
+ * Find max of numbers and display it on console */
+
+//using System.Globalization;
+
+//Console.WriteLine("Enter a set of numbers separated by a comma:");
+//var input = Console.ReadLine();
+
+//var numbers = input.Split(",");
+
+//var maxNum = Convert.ToInt32(numbers[0]);
+
+//foreach (var num in numbers)
+//{
+//    var number = Convert.ToInt32(num);
+//    if (number > maxNum)
+//        { maxNum = number; }
+//}
+//Console.WriteLine($"The maximum number in this list is {maxNum}");
+
+
 
 
 
